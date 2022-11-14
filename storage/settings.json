@@ -1,0 +1,30 @@
+{
+    "rules": {
+        "general": "<p>G\u00e9n\u00e9ral d<\/p>",
+        "baby": "<p>baby<\/p>",
+        "lg": "<p>Loup garou<\/p>",
+        "rl": "<p>Rl<\/p>",
+        "valo": "<p>Valo<\/p>",
+        "lol": "<p>Lol<\/p>",
+        "smash": "<p>Smash<\/p>"
+    },
+    "maintenance": false,
+    "display": {
+        "teams": true
+    },
+    "countdown": {
+        "display": true,
+        "end": "2022-11-25T04:17"
+    },
+    "stream": {
+        "status": true,
+        "channel": "qsd",
+        "link": "https:\/\/test.fr"
+    },
+    "contact": {
+        "mail": "mrlog42@gmail.com"
+    },
+    "home": {
+        "info": "<p>qsdqs<\/p>"
+    }
+}
