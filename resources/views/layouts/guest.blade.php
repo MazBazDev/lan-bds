@@ -9,20 +9,6 @@
     <meta name="title" content="@yield('title') | LAN BDE/BSD Ynov Lyon">
     <meta name="description" content="Retrouvez toutes les infos de la LAN du BDE/BDS Ynov Campus Lyon">
     <meta name="robots" content="index, follow">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ env('APP_URL') }}">
-    <meta property="og:title" content="@yield('title') | LAN BDE/BSD Ynov Lyon">
-    <meta property="og:description" content="Retrouvez toutes les infos de la LAN du BDE/BDS Ynov Campus Lyon">
-    <meta property="og:image" content="{{ asset("assets/img/logobds.svg") }}">
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="@yield('title') | LAN BDE/BSD Ynov Lyon">
-    <meta property="twitter:description" content="Retrouvez toutes les infos de la LAN du BDE/BDS Ynov Campus Lyon">
-    <meta property="twitter:image" content="{{ asset("assets/img/logobds.svg") }}">
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
