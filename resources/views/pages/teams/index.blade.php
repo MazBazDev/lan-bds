@@ -7,6 +7,7 @@
 <h3 class="text-white">Equipes</h3>
 <div class="row">
     <div class="col-md-3 mb-3">
+        @if(false)
         <a data-bs-toggle="collapse" style="color: black; text-decoration: none" href="#collapseLOL" role="button" aria-expanded="false" aria-controls="collapseLOL">
             <div class="card mb-2">
                 <div class="card-body d-flex">
@@ -47,6 +48,7 @@
                 </div>
             </div>
         </a>
+        @endif
         <a data-bs-toggle="collapse" style="color: black; text-decoration: none" href="#collapseBaby" role="button" aria-expanded="false" aria-controls="collapseBaby">
             <div class="card mb-2">
                 <div class="card-body">
@@ -56,6 +58,8 @@
         </a>
     </div>
     <div class="col-md-9" id="collapse">
+        @if(false)
+        
         <div class="collapse show" id="collapseLOL">
             <h3 class="text-white">League Of Legends</h3>
 
@@ -257,8 +261,8 @@
                 </div>
             </div>
         </div>
-
-        <div class="collapse" id="collapseBaby">
+        @endif
+        <div class="collapse show" id="collapseBaby">
             <h3 class="text-white">Babyfoot</h3>
 
             <div class="row">
