@@ -228,7 +228,7 @@
             this.modal.attr('data-event', event.parent().attr('data-event'));
     
             // update event content
-            this.modalBody.find('.event-info').load("http://BDS.test/api/event/content/"+event.parent().attr('data-content'), function(data){
+            this.modalBody.find('.event-info').load("{{ env('APP_URL') }}/api/event/content/"+event.parent().attr('data-content'), function(data){
                 //once the event content has been loaded
                 self.element.addClass('content-loaded');
             });

@@ -46,6 +46,9 @@
             <option @selected(old("color") == 2 || (($event->color ?? "") == 2)) value="2">Violet</option>
             <option @selected(old("color") == 3 || (($event->color ?? "") == 3)) value="3">Vert</option>
             <option @selected(old("color") == 4 || (($event->color ?? "") == 4)) value="4">Orange</option>
+            <option @selected(old("color") == 5 || (($event->color ?? "") == 5)) value="5">Rose</option>
+            <option @selected(old("color") == 6 || (($event->color ?? "") == 6)) value="6">Gris</option>
+            <option @selected(old("color") == 7 || (($event->color ?? "") == 7)) value="7">Rouge</option>
         </select>
       </div>
     @error('day')

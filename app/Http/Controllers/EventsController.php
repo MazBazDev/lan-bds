@@ -45,7 +45,7 @@ class EventsController extends Controller
             "end" => ["required", "date_format:H:i"],
             "active" => ['nullable'],
             "day" => ["required", "integer","min:1","max:3"],
-            "color" => ["required", "integer","min:1","max:4"],
+            "color" => ["required", "integer","min:1","max:7"],
         ]);
 
         Events::create([
@@ -90,8 +90,7 @@ class EventsController extends Controller
             "end" => ["required", "date_format:H:i"],
             "active" => ['nullable'],
             "day" => ["required", "integer","min:1","max:3"],
-            "color" => ["required", "integer","min:1","max:4"],
-
+            "color" => ["required", "integer","min:1","max:7"],
         ]);
 
         $event->update([
