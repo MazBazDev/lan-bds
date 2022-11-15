@@ -94,7 +94,7 @@
 		</header>
 
 		<div class="body">
-			<div class="event-info content-loaded" style="padding: 10px"></div>
+			<div class="event-info content-loaded" style="padding: 10px; padding-right: 37px;"></div>
 			<div class="body-bg"></div>
 		</div>
 
