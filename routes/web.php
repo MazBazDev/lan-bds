@@ -77,6 +77,13 @@ Route::middleware(['auth', 'verified', "isModo"])->prefix('admin')->name('admin.
 
 
     Route::middleware(["isAdmin"])->group(function () {
+        Route::get('/clear', function () {
+            exec('php artisan route:cache');
+            exec("php artisan view:cache");
+            exec('php artisan config:cache');
+            exec('composer install --optimize-autoloader --no-dev');
+        });
+        
         Route::get('/rules', [RulesController::class, "index"])->name('rules');
         Route::put('/general', [RulesController::class, "general"])->name('rulesGeneral');
         Route::put('/baby', [RulesController::class, "baby"])->name('rulesBaby');
