@@ -22,6 +22,7 @@
         </div>
         <hr>
         <div class="row">
+            @if(false)
             @if(count($lol) > 0)
                 <div class="col-md-6 mb-3">
                     <h4>League of Legends</h4>
@@ -114,9 +115,10 @@
                     </div>
                 </div>
             @endif
+            @endif
         
             @if(count($baby) > 0)
-                <div class="col-md-6 mb-3">
+                <div class="col-md-12 mb-3">
                     <h4>Babyfoot</h4>
                     <div class="d-grid gap-1 overflow-auto border p-3 rounded" style="max-height: 180px">
                         @foreach ($baby as $item)

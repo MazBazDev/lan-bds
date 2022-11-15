@@ -38,6 +38,7 @@
     </div>
 </div>
 
+@if(count($bracket->teams) > 0)
 <div class="row">
     <h4 class="text-white">Equipes</h4>
     @foreach ($bracket->teams as $item)
@@ -53,7 +54,7 @@
         </div>
     @endforeach
 </div>
-
+@endif
 
 @endsection
 
