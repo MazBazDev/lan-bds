@@ -10,7 +10,7 @@
                 <div class="card mb-3" id="countdown">
                     <div class="card-body d-flex justify-content-center">
                         <div class="text-center">
-                            <h3>DEBUT DE LA LAN !</h3>
+                            <h3>DEBUT DE LA YPARTY !</h3>
                             <div id="flipdown" class="flipdown"></div>
                         </div>
                     </div>

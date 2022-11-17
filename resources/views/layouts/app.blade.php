@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <meta name="title" content="@yield('title') | Admin BSD Ynov Lyon">
-    <meta name="description" content="Retrouvez toutes les infos de la LAN du BDE/BDS Ynov Campus Lyon">
+    <meta name="description" content="Retrouvez toutes les infos de la YPARTY du BDE/BDS Ynov Campus Lyon">
     <meta name="robots" content="index, follow">
     
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
