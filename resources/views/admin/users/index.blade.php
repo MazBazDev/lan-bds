@@ -34,13 +34,13 @@
                         <td>{{ $item->name }}</td>
                         <td>{{ $item->pseudo }}</td>
                         <td>
-                            @switch($item->admin)
-                                @case(1)
-                                    <span class="badge text-bg-danger">Admin</span>
-                                    @break
-                                @default
-                                    <span class="badge text-bg-primary">Joueur</span>
-                            @endswitch
+                            @if($item->admin) 
+                                <span class="badge badge-danger">Admin</span>
+                            @elseif($item->modo) 
+                                <span class="badge badge-warning">Modérateur</span>
+                            @else
+                                <span class="badge badge-primary">Joueur</span>
+                            @endif
                         </td>
                         <td class="d-flex">
                             <a class="btn btn-primary m-1" href="{{ route('admin.users.edit', $item) }}"><i class="bi bi-pencil-square"></i></a>
