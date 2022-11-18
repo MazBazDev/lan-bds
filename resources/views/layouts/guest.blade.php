@@ -6,13 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <meta name="title" content="@yield('title') | YPARTY BDE/BSD Ynov Lyon">
+    <meta name="title" content="@yield('title') | YPARTY BDE/BDS Ynov Lyon">
     <meta name="description" content="Retrouvez toutes les infos de la YPARTY du BDE/BDS Ynov Campus Lyon">
     <meta name="robots" content="index, follow">
 
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ url()->current() }}">
-    <meta property="og:title" content="@yield('title') | YPARTY BDE/BSD Ynov Lyon">
+    <meta property="og:title" content="@yield('title') | YPARTY BDE/BDS Ynov Lyon">
     <meta property="og:description" content="Retrouvez toutes les infos de la YPARTY du BDE/BDS Ynov Campus Lyon">
     <meta property="og:image" content="{{ asset("assets/img/logobds.svg") }}">
     <meta property="og:site_name" content="{{ env("APP_NAME") }}">
@@ -26,7 +26,7 @@
 
     <link rel="icon" href="{{ asset("assets/img/logobds.svg") }}" />
     
-    <title>@yield('title') | BSD Ynov Lyon</title>
+    <title>@yield('title') | BDS Ynov Lyon</title>
 
     <link rel="stylesheet" href="{{ asset("assets/css/app.css") }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">

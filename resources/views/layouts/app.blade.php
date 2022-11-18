@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <meta name="title" content="@yield('title') | Admin BSD Ynov Lyon">
+    <meta name="title" content="@yield('title') | Admin BDS Ynov Lyon">
     <meta name="description" content="Retrouvez toutes les infos de la YPARTY du BDE/BDS Ynov Campus Lyon">
     <meta name="robots" content="index, follow">
     
@@ -20,7 +20,7 @@
 
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>@yield('title') | Admin BSD Ynov Lyon</title>
+    <title>@yield('title') | Admin BDS Ynov Lyon</title>
 
     <!-- Custom fonts for this template-->
     <link rel="stylesheet" href="{{ asset("assets/vendor/admin/fontawesome-free/css/all.min.css") }}">
